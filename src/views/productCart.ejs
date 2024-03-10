@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Ajusta la ruta según tu estructura de carpetas -->
+</head>
+<body>
+
+    <header>
+        <!-- Encabezado de la página -->
+        <h1>Carrito de Compras</h1>
+    </header>
+
+    <main>
+        <!-- Contenido principal -->
+        <section id="cart-details">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Unitario</th>
+                        <th>Subtotal</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se mostrarán los productos en el carrito -->
+                    <tr>
+                        <td>Nombre del Producto</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$99.99</td>
+                        <td>$99.99</td>
+                        <td><button class="remove-btn">Eliminar</button></td>
+                    </tr>
+                    <!-- Puedes replicar esta fila para cada producto en el carrito -->
+                </tbody>
+            </table>
+
+            <div id="total">
+                <p>Total a Pagar: $99.99</p>
+            </div>
+
+            <!-- Botones para proceder al pago o seguir comprando -->
+            <div id="cart-actions">
+                <button id="checkout-btn">Proceder al Pago</button>
+                <button id="continue-shopping-btn">Seguir Comprando</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página -->
+        <p>&copy; 2024 Tu Tienda Online</p>
+    </footer>
+
+</body>
+</html>
