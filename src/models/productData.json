@@ -1,0 +1,16 @@
+{
+    "results": [
+        {
+            "id":"1",
+            "title": "SmartTv",
+            "price": 567650,
+            "img": "/img/pelota.png"
+        },
+        {
+            "id":"2",
+            "title": "Smartphone Motorola",
+            "price": 567650,
+            "img": "/img/basketball.png"
+        }
+    ]
+}

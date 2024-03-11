@@ -20,7 +20,7 @@ app.use(express.json());
 
 //template Engine//
 app.set('view engine', 'ejs')
-app.set('views', (__dirname, 'src/views'));
+app.set('views', (__dirname, './src/views'));
 
 const mainRouter = require('./routes/main');
 app.use('/', mainRouter);

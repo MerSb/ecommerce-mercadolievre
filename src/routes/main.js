@@ -1,6 +1,6 @@
 const express = require('express');
 let router = express.Router();
-let path = require('path');
+const path = require('path');
 let controller = require("../controllers/main");
 
 //routes//
