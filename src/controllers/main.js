@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const productDataPath = ('../models/productData.json');
+const productDataPath = path.resolve(__dirname, '../models/productData.json');
 
 const controller = {
     home: (req, res) => {
@@ -13,16 +13,33 @@ const controller = {
             }
 
             try {
-                // Convertir los datos JSON a un objeto JavaScript
+                // Convertir los datos JSON a un objeto JavaScript con el parse
+  
                 const productData = JSON.parse(data);
+                
                 // Aquí puedes utilizar los datos de los productos como lo necesites
-                res.render('home', { data: productData });
+                res.render('home', { data: productData.results });
             } catch (error) {
                 console.error('Error al parsear el archivo JSON de datos de productos:', error);
                 return res.status(500).send('Error interno del servidor');
             }
         });
     }
+    // contact: (req, res) =>{
+      //  res.render('contact');
+        
+    //}
+    
+    // about: (req, res) =>{
+        // res.render('about');
+    //}
 };
 
 module.exports = controller;
+
+//const controller = {
+   // home: (req, res) => {
+    //    const{results} = data;
+    //    res.render('home',{data: results})};
+
+    //otra forma de hacerlo//

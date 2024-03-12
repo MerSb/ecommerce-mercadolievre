@@ -99,29 +99,27 @@
                 <h2>Ultimos visitados</h2>
             </header>
             <div class="articles">
+                <% data.forEach((productos) => { %>
                 <article>
                     <div>
                         <i class="fa-regular fa-heart"></i>
                     </div>
-                    <img class="img-product" src="./img/img-cafetera-moulinex.jpg" alt="aspiradora">
+                    <img class="img-product" src="./img/<%= producto.img>" alt="aspiradora">
                     <header>
-                        <h3 class="product-title">Cafetera MOULINEX </h3>
+                        <h3 class="product-title"><%= producto.title %></h3>
                     </header>
 
-                    <div class="description">
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nam corporis quisquam vel ea laudantium dolor sequi error. Itaque porro consequuntur labore voluptas minima aut nulla corrupti placeat libero id voluptate a nisi quidem dolore dignissimos reprehenderit, eveniet error optio nihil ea nam exercitationem nemo reiciendis sunt? Aperiam, obcaecati atque?</p> -->
-                        <p> <strong>La mejor aspiradora </strong>Lorem ipsum <em> dolor sit amet </em> consectetur
-                            <span>adipisicing elit. </span> Id nostrum eos tenetur impedit eaque ullam vel modi quis
-                            placeat sed?</p>
+                    <div class="description"><%= producto.description %>
 
                         </div>
 
-                        <p class="shipping">Envío gratis</p>
+                        <p class="shipping"><%= producto.shipping %></p>
                         
-                        <p class="price">$800.000</p>
+                        <p class="price"><%= producto.price %></p>
 
 
                 </article>
+                )} %>
                 <article>
                     <div>
                         <i class="fa-regular fa-heart"></i>

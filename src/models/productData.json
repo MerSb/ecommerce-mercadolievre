@@ -4,13 +4,19 @@
             "id":"1",
             "title": "SmartTv",
             "price": 567650,
-            "img": "/img/pelota.png"
+            "img": "/img/pelota.png",
+            "shipping": "Envio gratis",
+            "description": " <p> <strong>La mejor aspiradora </strong>Lorem ipsum <em> dolor sit amet </em> consectetur
+            <span>adipisicing elit. </span> Id nostrum eos tenetur impedit eaque ullam vel modi quis
+            placeat sed?</p> "
         },
         {
             "id":"2",
             "title": "Smartphone Motorola",
             "price": 567650,
-            "img": "/img/basketball.png"
+            "img": "/img/basketball.png",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
         }
     ]
 }
