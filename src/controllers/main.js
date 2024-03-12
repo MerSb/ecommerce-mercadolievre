@@ -1,7 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 
-const productDataPath = path.resolve(__dirname, '../models/productData.json');
+const productDataPath = path.resolve(__dirname, '../models/productData.json') ;
+const data = require('../models/productData.json'); // JSON -JSON.parse() -> JS (obj literal)
 
 const controller = {
     home: (req, res) => {
@@ -14,17 +15,25 @@ const controller = {
 
             try {
                 // Convertir los datos JSON a un objeto JavaScript con el parse
-  
                 const productData = JSON.parse(data);
-                
-                // Aquí puedes utilizar los datos de los productos como lo necesites
-                res.render('home', { data: productData.results });
+                console.log(data)
+                // Aqui­ puedes utilizar los datos de los productos como lo necesites
+                res.render('home', { data: productData });
             } catch (error) {
                 console.error('Error al parsear el archivo JSON de datos de productos:', error);
                 return res.status(500).send('Error interno del servidor');
             }
         });
+
+        // const data = JSON.parse(fs.readFileSync(productDataPath, 'utf-8' )) // JSON -> JS
+
+        // const { results } = data;
+
+        // res.render('home', { data: results } )
     }
+};
+
+module.exports = controller;
     // contact: (req, res) =>{
       //  res.render('contact');
         
@@ -33,9 +42,7 @@ const controller = {
     // about: (req, res) =>{
         // res.render('about');
     //}
-};
 
-module.exports = controller;
 
 //const controller = {
    // home: (req, res) => {
@@ -43,3 +50,9 @@ module.exports = controller;
     //    res.render('home',{data: results})};
 
     //otra forma de hacerlo//
+
+     // const data = JSON.parse(fs.readFileSync(productDataPath, 'utf-8' )) // JSON -> JS
+
+        // const { results } = data;
+
+        // res.render('home', { data: results } )

@@ -2,19 +2,153 @@
     "results": [
         {
             "id":"1",
-            "title": "SmartTv",
+            "title": "Cafetera MOULINEX",
             "price": 567650,
-            "img": "/img/pelota.png",
+            "img": "/img/img-moulinex.jpg",
             "shipping": "Envio gratis",
-            "description": " <p> <strong>La mejor aspiradora </strong>Lorem ipsum <em> dolor sit amet </em> consectetur
-            <span>adipisicing elit. </span> Id nostrum eos tenetur impedit eaque ullam vel modi quis
-            placeat sed?</p> "
+            "description": "lorem ipsum"
         },
         {
             "id":"2",
-            "title": "Smartphone Motorola",
+            "title": "MacBook PRO 2019",
             "price": 567650,
-            "img": "/img/basketball.png",
+            "img": "/img/img-macbookpro.jpg",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"3",
+            "title": "Samsung Galaxy s10",
+            "price": 567650,
+            "img": "/img/img-samsunggalaxy.jpg",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"4",
+            "title": "Aspiradora Ultra potente",
+            "price": 567650,
+            "img": "/img/img-aspiradora.jpg",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"5",
+            "title": "Smart Tv 50' Samsung Serie7 4K",
+            "price": 567650,
+            "img": "/img/img-smartsamsung.jpg",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"6",
+            "title": "iPhone 14 PRO 256 GB",
+            "price": 567650,
+            "img": "/img/img-iPhone14.jpg",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"7",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"8",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"9",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"10",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"11",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"12",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"13",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"14",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"15",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"16",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"17",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"18",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
+            "shipping": "Envio gratis",
+            "description": "lorem ipsum"
+        },
+        {
+            "id":"19",
+            "title": "",
+            "price": 567650,
+            "img": "/img/",
             "shipping": "Envio gratis",
             "description": "lorem ipsum"
         }

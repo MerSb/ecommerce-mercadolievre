@@ -92,25 +92,27 @@
 
 
     <main>
-        <!-- Contenido principal -->
+        <!-- Contenido principal  <p> <strong>La mejor aspiradora </strong>Lorem ipsum <em> dolor sit amet </em> consectetur
+            <span>adipisicing elit. </span> Id nostrum eos tenetur impedit eaque ullam vel modi quis
+            placeat sed?</p>  -->
 
         <section>
             <header class="header-section">
                 <h2>Ultimos visitados</h2>
             </header>
             <div class="articles">
-                <% data.forEach((productos) => { %>
+                <% data.forEach(producto) => { %>
                 <article>
                     <div>
                         <i class="fa-regular fa-heart"></i>
                     </div>
-                    <img class="img-product" src="./img/<%= producto.img>" alt="aspiradora">
+                    <img class="img-product" src="./img/<%= producto.img%>" alt="aspiradora">
                     <header>
                         <h3 class="product-title"><%= producto.title %></h3>
                     </header>
 
                     <div class="description"><%= producto.description %>
-
+                     
                         </div>
 
                         <p class="shipping"><%= producto.shipping %></p>
@@ -119,7 +121,7 @@
 
 
                 </article>
-                )} %>
+                <% } %>
                 <article>
                     <div>
                         <i class="fa-regular fa-heart"></i>

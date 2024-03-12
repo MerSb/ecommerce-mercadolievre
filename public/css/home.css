@@ -65,7 +65,7 @@ article img {
    }
    
    img#logo{
-       width: 40px;
+       width: 80px;
    }
    
    .header-bottom{
@@ -210,6 +210,12 @@ article img {
 .footer-section {
     width: 100%; /* Ajusta el ancho de cada sección según tus necesidades */
     margin-bottom: 20px;
+    .footer-section {
+        width: calc(33.33% - 20px); /* Ajusta el ancho de cada sección según tus necesidades */
+        margin-bottom: 20px;
+        box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el ancho especificado */
+        padding: 10px; /* Agrega padding para separar los elementos */
+    }
 }
 
 #copyright {
